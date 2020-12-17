@@ -71,8 +71,8 @@ nav {
 
 .about-btn {
   margin-top: 1%;
-  border: 2px solid #A1887F;
-  color: #A1887F;
+  border: 2px solid #fff;
+  color: #fff;
   padding: 15px;
   font-size: 1rem;
   text-decoration: none;
@@ -84,6 +84,7 @@ nav {
 .about-btn:hover {
   color: #fff;
   background: #A1887F;
+  border: 2px solid #A1887F;
 }
 
 .container {
@@ -113,7 +114,7 @@ nav {
 
 /* menu section */
 .menu {
-  background-image: url('./img/wood.jpg');
+  background: #222;
   color: #fff;
   text-align: center;
 }
@@ -122,27 +123,34 @@ nav {
 .food {
   height: 50vh;
   padding-top: 5%;
-  background: #222;
+  background-image: url('./img/wood.jpg');
 }
 
-.coffee-menu,
 .food-menu {
-  height: 100vh;
+  padding-bottom: 5%;
 }
 
 .menu-row {
   display: flex;
   justify-content: space-around;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  padding-right: 10%;
+  padding-left: 10%;
 }
 
 .menu-col {
-  flex: 30%;
-  height: 100%;
+  height: 30%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 img {
-  height: 20%;
-  width: 20%;
+  height: 35%;
+  width: 35%;
   margin-bottom: 2%;
 }
 
