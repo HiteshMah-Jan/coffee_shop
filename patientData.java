@@ -202,30 +202,3 @@ public class physicianMedicalFormController implements Initializable{
         if(Main.patient.getStoolCultures())
             sb.append("Stool Cultures; ");
 
-        tests1.setText(sb.toString());
-        sb.setLength(0);
-
-        if(Main.patient.getBrokenBone())
-            sb.append("Broken bone; ");
-        if(Main.patient.getHeartAttack())
-            sb.append("Heart attack; ");
-        if(Main.patient.getLaceration())
-            sb.append("Laceration; ");
-        if(Main.patient.getHivAIDS())
-            sb.append("HIV/AIDS; ");
-        if(Main.patient.getLiverFailure())
-            sb.append("Liver failure; ");
-        if(Main.patient.getKidneyFailure())
-            sb.append("Kidney Failure; ");
-        if(Main.patient.getDiabetes())
-            sb.append("Diabetes; ");
-        if(Main.patient.getInfammatoryBowlDisease())
-            sb.append("Inflammatory bowl disease; ");
-        if(Main.patient.getStroke())
-            sb.append("Stroke; ");
-        if(Main.patient.getTornMuscleTendon())
-            sb.append("Torn muscle/Tendon; ");
-
-        diagnosis1.setText(sb.toString());
-    }
-}
