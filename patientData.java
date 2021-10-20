@@ -178,8 +178,7 @@ public class physicianMedicalFormController implements Initializable{
             sb.append("; ");
         }
 
-        medications1.setText(sb.toString());
-        sb.setLength(0);
+
 
         if(Main.patient.getNucleicAcid())
             sb.append("Calcium Reducer; ");
